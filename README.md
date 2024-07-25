@@ -4,7 +4,7 @@ The codebase is similar to https://github.com/justaguyalways/ToxVidLM_ACL_2024/t
 
 ## Dataset
 
-1. Download the dataset from the following link: [ToxCMM Dataset Link](https://drive.google.com/drive/folders/14WxjvCHXA-c6gS1oZQ1RZkQgeg4Uormr?usp=sharing)
+1. Download the dataset from the following link: [ToxVI Dataset Link](https://drive.google.com/drive/folders/14WxjvCHXA-c6gS1oZQ1RZkQgeg4Uormr?usp=sharing)
 
 2. Unzip the downloaded file:
    ```bash
