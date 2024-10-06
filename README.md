@@ -1,7 +1,3 @@
-## Usage
-
-The codebase is similar to https://github.com/justaguyalways/ToxVidLM_ACL_2024/tree/main. I am currently busy with other stuff, but I will update the repository with additional code as soon as I can. Meanwhile, you can access the dataset.
-
 ## Dataset
 
 1. Download the dataset from the following link: [ToxVI Dataset Link](https://drive.google.com/drive/folders/14WxjvCHXA-c6gS1oZQ1RZkQgeg4Uormr?usp=sharing)
@@ -20,5 +16,40 @@ Stay tuned for updates and feel free to contribute!
 
 
 ![View CIKM 2024 Video Intervention Generation Framework](./assets/CIKM_2024_Video_Intervention_Framework.png)
+
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone git@github.com:justaguyalways/Code-Mixed-Hinglish-Intervention-CIKM-2024.git
+cd Code-Mixed-Hinglish-Intervention-CIKM-2024
+```
+
+2. Create a conda environment and activate it:
+
+```bash
+conda create --name your-env-name python=3.8
+conda activate your-env-name
+```
+
+3. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. To train the model as well as generate predictions, run `train.py`. You can specify which GPU to use with the `CUDA_VISIBLE_DEVICES` environment variable. Replace `xxxx` with the appropriate GPU ID (e.g., `0` for the first GPU).
+
+```bash
+CUDA_VISIBLE_DEVICES=xxxx python train.py
+```
+
+Example:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python train.py
+```
 
 

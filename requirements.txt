@@ -1,0 +1,16 @@
+torch==2.0.0+cu121
+torchvision==0.15.1+cu121
+torchaudio==2.0.1+cu121
+peft
+librosa
+av
+opencv-python
+PIL
+tqdm
+numpy
+pandas
+scikit-learn
+pytorchvideo
+transformers
+datasets
+evaluate
